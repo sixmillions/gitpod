@@ -7,10 +7,15 @@
   "author": "sixmillions <liubw95@163.com>",
   "license": "MIT",
   "devDependencies": {
+    "@vuepress/plugin-search": "^1.8.2",
     "vuepress": "^1.8.2"
   },
   "scripts": {
     "docs:dev": "vuepress dev docs",
     "docs:build": "vuepress build docs"
+  },
+  "dependencies": {
+    "async-validator": "1.11.5",
+    "element-ui": "^2.15.3"
   }
 }
